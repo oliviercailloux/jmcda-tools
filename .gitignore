@@ -1,6 +1,6 @@
-*/.classpath
-*/.project
-*/.settings
+.classpath
+.project
+.settings
 
 *.class
 
@@ -8,9 +8,9 @@
 *.war
 *.ear
 
-*/detailed.log
-*/errors.log
-*/target/
+detailed.log
+errors.log
+target/
 
 *.pyc
 
