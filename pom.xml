@@ -3,27 +3,28 @@
 	<parent>
 		<groupId>io.github.oliviercailloux.jmcda</groupId>
 		<artifactId>pom</artifactId>
-		<version>0.5.4-SNAPSHOT</version>
+		<version>0.6.0</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>jmcda-tools</artifactId>
+	<version>0.5.4-SNAPSHOT</version>
 	<name>J-MCDA Tools</name>
 	<description>Provides a runnable artifact that allows to run the export and import tools from the command line.</description>
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>jmcda-base</artifactId>
-			<version>${project.version}</version>
+			<artifactId>base</artifactId>
+			<version>0.5.4</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>jmcda-services</artifactId>
-			<version>${project.version}</version>
+			<artifactId>services</artifactId>
+			<version>0.5.4</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>jmcda-xmcda2-parsing</artifactId>
-			<version>${project.version}</version>
+			<artifactId>xmcda2-parsing</artifactId>
+			<version>0.5.4</version>
 		</dependency>
 
 		<dependency>
